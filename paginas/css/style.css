@@ -115,6 +115,20 @@ background-color: rgba(0, 153, 255, 0.781);
 padding-left: 43%;
 font-size: 25px;
 }
+/*MAIN QS*/
+.QUIENES-SOMOS {
+    font-weight: bold;
+}
+.TextoCentro{
+
+}
+.Identidad{
+    
+}
+/*MAIN PF*/
+/*MAIN CONTACTO*/
+/*MAIN T&C*/
+
 
 @media (max-width: 992px){
     .TamañoLogo{
