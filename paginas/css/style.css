@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@400;500&family=Roboto:ital,wght@0,300;1,100&family=Shadows+Into+Light&family=Signika+Negative:wght@300&family=Source+Sans+Pro:wght@200;400&display=swap");
+
+body {
+    background-color: rgba(255, 255, 0, 0.945);
+}
+main{
+    background-color: rgba(0, 153, 255, 0.938);
+}
+.TamañoLogo{
+    padding-top: 35px;
+}
+#BorderMenuD{
+    padding-left: 150px;
+    }
+#BorderMenuDItem {
+        padding-right:50px ;
+        padding-left: 25x;
+}
+#BorderHeader {
+        background-color: rgba(243, 241, 105, 0.863);
+
+}
+#BorderMenuD, .BorderMenuD, .BorderMenuD2, .BorderMenuD3, .BorderMenuD4, .BorderMenuD5 {
+    font-family: sans-serif;
+    color: black;
+    font-size:3%;
+    text-align: center;
+}
+@media (max-width: 992px){
+    .TamañoLogo{
+        height: 50% ;
+        width:50% ;
+        padding-bottom: 1px;
+        
+    }
+    .ColorNavegador {
+        background-color: yellowgreen;
+    }
+    #BorderMenu {
+        
+    }
+    #BorderMenuD, .BorderMenuD, .BorderMenuD2, .BorderMenuD3, .BorderMenuD4, .BorderMenuD5 {
+        border-top: solid rgba(92, 91, 40, 0.753) 1px;
+        background-color: rgba(247, 243, 51, 0.753);
+        padding-left: 1px;
+        text-align: center;
+        
+    }
+    div div img {
+        width: 85px;
+        height: 95px;
+    }
+}
+
+
