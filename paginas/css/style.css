@@ -1,5 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@400;500&family=Roboto:ital,wght@0,300;1,100&family=Shadows+Into+Light&family=Signika+Negative:wght@300&family=Source+Sans+Pro:wght@200;400&display=swap");
-
+body {
+    font-family: "Cabin Condensed", sans-serif;
+    font-family: "Chathura", sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
+    font-family: "Shadows Into Light", cursive;
+    font-family: "Signika Negative", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
+    background-color: rgb(238, 255, 0);
+}
+  
 body {
     background-color: rgba(255, 255, 0, 0.945);
 }
@@ -81,13 +91,36 @@ form {
     line-height:1.2;
     font-weight: bold !important;
 }
+/*MAIN productos*/
+#BorderMain {
+background-color: rgba(0, 153, 255, 0.781);
+}
+.card-body{
+    background-color: #f4f8fc;
+}
+.TituloProdts{
+    font-weight: bold;
+    font-family: "Signika Negative", sans-serif;
+    text-align: center;
+    color: rgb(49, 48, 48);
+    text-decoration: none;
+}
+.card-textP1, .card-textP3, .card-textP4, .card-textP5{
+    padding-left: 5%;
+}
+.bg-lightblue {
+    background-color: #6fb5fc;
+}
+.card-header-tabs {
+padding-left: 43%;
+font-size: 25px;
+}
 
 @media (max-width: 992px){
     .TamañoLogo{
         height: 50% ;
         width:50% ;
         padding-bottom: 1px;
-        
     }
     .ColorNavegador {
         background-color: yellowgreen;
@@ -171,6 +204,37 @@ form {
     }
     .Celda3 {
         padding: 40px 30px;
+    }
+    /*MainProductos*/
+    #BorderMain{
+        background-color: rgba(234, 242, 247, 0.938);
+        border: solid rgba(0, 0, 0, 0.945) 1px;
+        margin-bottom: 10%;
+    }
+.card-textP {
+    font-size: 12px;
+    text-align: justify;
+}
+.card-textP5{
+    font-size: 18px;
+}
+#CardPrdts{
+    margin: 5%;
+}
+.Redes{
+    width: 7%;
+    height: 7%;
+}
+.card-textP3{
+    font-size: 15px;
+}
+.card-img-top{
+    padding-left: 25%;
+width: 75%;
+height: 75%;
+}
+.card-header-tabs {
+    padding-left: 20%;
     }
 }
 
