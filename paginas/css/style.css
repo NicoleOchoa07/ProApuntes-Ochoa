@@ -119,12 +119,9 @@ font-size: 25px;
 .QUIENES-SOMOS {
     font-weight: bold;
 }
-
 /*MAIN PF*/
 /*MAIN CONTACTO*/
 /*MAIN T&C*/
-
-
 @media (max-width: 992px){
     .TamañoLogo{
         height: 50% ;
