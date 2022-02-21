@@ -61,6 +61,13 @@ padding-left: 5px;
     margin-top: 0.5%;
     padding: 30px;
 }
+/*Footer*/
+.Celda2{
+    border-left: solid rgba(92, 91, 40, 0.753) 1px;
+}
+.NAVEGACION{
+    font-weight: bold;
+}
 
 @media (max-width: 992px){
     .TamañoLogo{
@@ -128,8 +135,25 @@ padding-left: 5px;
         width: 400px;
         height: 350px;
     }
+   
     .main{
-        width: 3000px;
+        width: 3000px;   
+    } 
+    /*FOOTER*/
+    #Celda1a {
+        font-size: 15px!important;
+    }
+    .Espaciado{
+        line-height: 0.50;
+    }
+    .PB {
+        padding-bottom: 5%;
+    }
+    
+    .Celda1, .Celda2{
+        border-left: solid rgba(255, 255, 0, 0.945) 1px;
+        font-size: small;
+        padding-left: 16px;
     }
 }
 
