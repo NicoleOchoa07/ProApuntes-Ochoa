@@ -92,9 +92,6 @@ form {
     .ColorNavegador {
         background-color: yellowgreen;
     }
-    #BorderMenu {
-        
-    }
     #BorderMenuD, .BorderMenuD, .BorderMenuD2, .BorderMenuD3, .BorderMenuD4, .BorderMenuD5 {
         border-top: solid rgba(92, 91, 40, 0.753) 1px;
         background-color: rgba(247, 243, 51, 0.753);
