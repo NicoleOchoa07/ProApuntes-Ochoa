@@ -1,0 +1,110 @@
+@import 'variables';
+@import 'Home';
+@import 'Productos';
+@import url("https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@400;500&family=Roboto:ital,wght@0,300;1,100&family=Shadows+Into+Light&family=Signika+Negative:wght@300&family=Source+Sans+Pro:wght@200;400&display=swap");
+body {
+    font-family: "Cabin Condensed", sans-serif;
+    font-family: "Chathura", sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
+    font-family: "Shadows Into Light", cursive;
+    font-family: "Signika Negative", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
+    background-color: $color-primario;
+}
+
+header {
+    .TamañoLogo{
+    padding-top: 35px;
+}
+#BorderMenuD{
+    padding-left: 150px;
+    }
+#BorderMenuDItem {
+        padding-right:50px ;
+        padding-left: 25x;
+}
+#BorderHeader {
+        background-color: rgba(243, 241, 105, 0.863);
+
+}
+#BorderMenuD, .BorderMenuD, .BorderMenuD2, .BorderMenuD3, .BorderMenuD4, .BorderMenuD5 {
+    font-family: sans-serif;
+    color: $color-Textos;
+    font-size:3%;
+    text-align: center;
+}
+}
+main{
+    background-color: $color-primarioB;
+}
+/*Footer*/
+footer {
+    .Celda2{
+    border-left: solid $color-border;
+}
+    .NAVEGACION{
+    font-weight: bold;
+}
+    form {
+    border:solid $color-border 1px;
+    margin: 2px;
+    padding: 20px;
+    background-color: rgba(247, 243, 51, 0.753);
+}
+    .Espaciado1{
+    color: black;
+}
+     .FORMULARIO{
+    line-height:1.2;
+    font-weight: bold !important;
+}
+}
+/*MAIN QS*/
+.QUIENES-SOMOS {
+    font-weight: bold;
+}
+/*MAIN PF*/
+/*MAIN CONTACTO*/
+/*MAIN T&C*/
+@media (max-width: 992px){
+    .TamañoLogo{
+        height: 50% ;
+        width:50% ;
+        padding-bottom: 1px;
+    }
+    .ColorNavegador {
+        background-color: $color-navegador;
+    }
+    #BorderMenuD, .BorderMenuD, .BorderMenuD2, .BorderMenuD3, .BorderMenuD4, .BorderMenuD5 {
+        border-top: solid $color-border 1px;
+        background-color: $color-navegador;
+        padding-left: 1px;
+        text-align: center;
+    }
+    /*FOOTER*/
+    .Espaciado{
+        line-height: 0.50;
+    }
+    .PB {
+        padding-bottom: 5%;
+    }
+    
+    .Celda1, .Celda2, .Celda3 {
+        border-left: solid rgba(255, 255, 0, 0.945) 1px;
+        font-size: small;
+        padding-left: 12px;
+    }
+    .Celda26{ 
+        line-height: 1.2;
+    }
+    .Redes {
+        width: 15%;
+        height: 15%;
+    }
+    .Celda3 {
+        padding: 40px 30px;
+    }
+}
+
+
