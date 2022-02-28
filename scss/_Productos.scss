@@ -15,6 +15,8 @@ background-color: $color-primarioB;
 }
 .card-textP1, .card-textP3, .card-textP4, .card-textP5{
     padding-left: 5%;
+    border: solid yellow 1px;
+
 }
 .bg-lightblue {
     background-color: $color-primarioB;
@@ -39,6 +41,7 @@ font-size: 25px;
     }
     #CardPrdts{
     margin: 5%;
+
     }
     .Redes{
     width: 7%;

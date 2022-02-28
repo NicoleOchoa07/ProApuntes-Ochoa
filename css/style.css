@@ -8,11 +8,11 @@ body {
   font-family: "Shadows Into Light", cursive;
   font-family: "Signika Negative", sans-serif;
   font-family: "Source Sans Pro", sans-serif;
-  background-color: #eeff00;
+  background-color: #006ba8;
 }
 
 main {
-  background-color: rgba(0, 153, 255, 0.938);
+  background-color: rgba(241, 244, 247, 0.938);
 }
 
 header .TamañoLogo {
@@ -29,7 +29,7 @@ header #BorderMenuDItem {
 }
 
 header #BorderHeader {
-  background-color: rgba(243, 241, 105, 0.863);
+  background-color: rgba(105, 243, 236, 0.863);
 }
 
 header #BorderMenuD, header .BorderMenuD, header .BorderMenuD2, header .BorderMenuD3, header .BorderMenuD4, header .BorderMenuD5 {

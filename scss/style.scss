@@ -24,7 +24,7 @@ header {
         padding-left: 25x;
 }
 #BorderHeader {
-        background-color: rgba(243, 241, 105, 0.863);
+        background-color: rgba(0, 106, 192, 0.863);
 
 }
 #BorderMenuD, .BorderMenuD, .BorderMenuD2, .BorderMenuD3, .BorderMenuD4, .BorderMenuD5 {
@@ -49,7 +49,7 @@ footer {
     border:solid $color-border 1px;
     margin: 2px;
     padding: 20px;
-    background-color: rgba(247, 243, 51, 0.753);
+    background-color: rgb(100, 150, 173);
 }
     .Espaciado1{
     color: black;
@@ -90,7 +90,7 @@ footer {
     }
     
     .Celda1, .Celda2, .Celda3 {
-        border-left: solid rgba(255, 255, 0, 0.945) 1px;
+        border-left: solid rgba(135, 210, 253, 0.945) 1px;
         font-size: small;
         padding-left: 12px;
     }
