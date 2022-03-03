@@ -1,6 +1,3 @@
-@import 'variable';
-@import 'Home';
-@import 'Productos';
 @import url("https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@400;500&family=Roboto:ital,wght@0,300;1,100&family=Shadows+Into+Light&family=Signika+Negative:wght@300&family=Source+Sans+Pro:wght@200;400&display=swap");
 body {
     font-family: "Cabin Condensed", sans-serif;
@@ -12,6 +9,7 @@ body {
     font-family: "Source Sans Pro", sans-serif;
     background-image: linear-gradient($color-primario, $color-primarioB, $color-primario);
 }
+$buttom:(masInfo1:#3b5998, masInfo2:#ddfd26);
 header {
     .TamañoLogo{
     padding-top: 35px;
@@ -45,6 +43,16 @@ main{
         color: $color-TitulosSecciones;
         text-decoration: none;
     }
+    @mixin underline($color, $type) {
+        text-decoration: underline;
+        text-decoration-color: $masInfo2;
+        text-decoration-style: $type;
+    }
+    .btn-1 {
+        @include subrayado(#3b5998, dotted);
+        @include negrita;
+    }
+
 }
 /*Footer*/
 footer {
