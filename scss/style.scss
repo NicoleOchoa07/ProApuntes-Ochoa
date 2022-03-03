@@ -19,11 +19,7 @@ header {
 #BorderMenuD{
     padding-left: 35%;
     }
-#BorderMenuDItem {
-        padding-right:50px ;
-        padding-left: 25x;
-        background-color: $color-navegador;
-}
+
 #BorderHeader {
     background-color: $color-card;
 
@@ -35,6 +31,7 @@ header {
     text-align: center;
     background-color: $color-navegador;
 }
+.BorderMenuD1,
 .BorderMenuD2, .BorderMenuD3, .BorderMenuD4, .BorderMenuD5 {
     @extend #BorderMenuD
 }

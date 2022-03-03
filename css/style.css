@@ -11,11 +11,7 @@ main .card-img {
 }
 
 main div div img {
-<<<<<<< HEAD
   width: 35%;
-=======
-  width: 30%;
->>>>>>> SEOySASS
   height: 40%;
 }
 
@@ -29,13 +25,6 @@ main .card-imgFondo {
   height: 360px;
 }
 
-<<<<<<< HEAD
-main .card-text {
-  font-size: 20px;
-  margin: 5%;
-}
-
-=======
 main .TituloResumen {
   font-size: 35px;
 }
@@ -46,7 +35,6 @@ main .card-text {
   text-align: center;
 }
 
->>>>>>> SEOySASS
 main #colorRESUMEN {
   margin: 40px;
   padding-left: 5px;
@@ -56,11 +44,8 @@ main .BoxText {
   margin: 3%;
   margin-top: 0.5%;
   padding: 30px;
-<<<<<<< HEAD
-=======
   background-color: rgba(255, 255, 0, 0.459);
   font-size: 25px;
->>>>>>> SEOySASS
 }
 
 @media (max-width: 992px) {
@@ -119,39 +104,20 @@ main .BoxText {
 
 /*MAIN productos*/
 main #BorderMain {
-<<<<<<< HEAD
-  background-color: white;
-=======
   background-color: #d8fd06;
->>>>>>> SEOySASS
 }
 
 main .card-body {
   background-color: #f4f8fc;
 }
 
-<<<<<<< HEAD
-main .TituloProdts {
-  font-weight: bold;
-  font-family: "Signika Negative", sans-serif;
-  text-align: center;
-  color: #313030;
-  text-decoration: none;
-}
-
-=======
->>>>>>> SEOySASS
 main .card-textP1, main .card-textP3, main .card-textP4, main .card-textP5 {
   padding-left: 5%;
   border: solid yellow 1px;
 }
 
 main .bg-lightblue {
-<<<<<<< HEAD
-  background-color: white;
-=======
   background-color: #d8fd06;
->>>>>>> SEOySASS
 }
 
 main .card-header-tabs {
@@ -159,13 +125,10 @@ main .card-header-tabs {
   font-size: 25px;
 }
 
-<<<<<<< HEAD
-=======
 main .Redes {
   weight: map-get;
 }
 
->>>>>>> SEOySASS
 @media (max-width: 992px) {
   #BorderMain {
     background-color: rgba(204, 225, 238, 0.938);
@@ -207,71 +170,37 @@ body {
   font-family: "Shadows Into Light", cursive;
   font-family: "Signika Negative", sans-serif;
   font-family: "Source Sans Pro", sans-serif;
-<<<<<<< HEAD
-  background-color: rgba(20, 177, 240, 0.767);
-=======
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 140, 197, 0.795)), color-stop(#d8fd06), to(rgba(17, 140, 197, 0.795)));
+  background-image: -webkit-gradient (linear, left top, left bottom, from(rgba(17, 140, 197, 0.795)), color-stop(#d8fd06), to(rgba(17, 140, 197, 0.795)));
   background-image: linear-gradient(rgba(17, 140, 197, 0.795), #d8fd06, rgba(17, 140, 197, 0.795));
->>>>>>> SEOySASS
 }
 
 header .TamañoLogo {
   padding-top: 35px;
 }
 
-<<<<<<< HEAD
-header #BorderMenuD {
-  padding-left: 150px;
-=======
 header #BorderMenuD, header .BorderMenuD, header .BorderMenuD2, header .BorderMenuD3, header .BorderMenuD4, header .BorderMenuD5 {
   padding-left: 50px;
->>>>>>> SEOySASS
-}
-
-header #BorderMenuDItem {
-  padding-right: 50px;
-  padding-left: 25x;
-}
-
-header #BorderHeader {
-<<<<<<< HEAD
-  background-color: rgba(0, 106, 192, 0.863);
-=======
   background-color: rgba(12, 101, 160, 0.507);
->>>>>>> SEOySASS
 }
-
-header #BorderMenuD, header .BorderMenuD, header .BorderMenuD2, header .BorderMenuD3, header .BorderMenuD4, header .BorderMenuD5 {
+header #BorderMenuD, header #BorderMenuD1, header .BorderMenuD, header .BorderMenuD2, header .BorderMenuD3, header .BorderMenuD4, header .BorderMenuD5 {
   font-family: sans-serif;
-<<<<<<< HEAD
-  color: black;
-=======
   color: #6cc20a;
->>>>>>> SEOySASS
   font-size: 3%;
   text-align: center;
+  
 }
 
-<<<<<<< HEAD
-main {
-  background-color: white;
-=======
 main .Titulo {
   font-weight: bold;
   font-family: "Signika Negative", sans-serif;
   text-align: center;
   color: #313030;
   text-decoration: none;
->>>>>>> SEOySASS
 }
 
 /*Footer*/
 footer .Celda2 {
-<<<<<<< HEAD
-  border-left: solid rgba(5, 5, 0, 0.753);
-=======
   border-left: solid rgba(92, 91, 40, 0.753);
->>>>>>> SEOySASS
 }
 
 footer .NAVEGACION {
@@ -279,17 +208,10 @@ footer .NAVEGACION {
 }
 
 footer form {
-<<<<<<< HEAD
-  border: solid rgba(5, 5, 0, 0.753) 1px;
-  margin: 2px;
-  padding: 20px;
-  background-color: #6496ad;
-=======
   border: solid rgba(92, 91, 40, 0.753) 1px;
   margin: 2px;
   padding: 20px;
   background-color: rgba(12, 101, 160, 0.507);
->>>>>>> SEOySASS
 }
 
 footer .Espaciado1 {
@@ -302,13 +224,6 @@ footer .FORMULARIO {
 }
 
 /*MAIN QS*/
-<<<<<<< HEAD
-.QUIENES-SOMOS {
-  font-weight: bold;
-}
-
-=======
->>>>>>> SEOySASS
 /*MAIN PF*/
 /*MAIN CONTACTO*/
 /*MAIN T&C*/
@@ -318,18 +233,9 @@ footer .FORMULARIO {
     width: 50%;
     padding-bottom: 1px;
   }
-<<<<<<< HEAD
-  .ColorNavegador {
-    background-color: #29afd1;
-  }
-  #BorderMenuD, .BorderMenuD, .BorderMenuD2, .BorderMenuD3, .BorderMenuD4, .BorderMenuD5 {
-    border-top: solid rgba(5, 5, 0, 0.753) 1px;
-    background-color: #29afd1;
-=======
   #BorderMenuD, header .BorderMenuD, header .BorderMenuD2, header .BorderMenuD3, header .BorderMenuD4, header .BorderMenuD5 {
     border-top: solid rgba(92, 91, 40, 0.753) 1px;
     background-color: rgba(12, 101, 160, 0.507);
->>>>>>> SEOySASS
     padding-left: 1px;
     text-align: center;
   }

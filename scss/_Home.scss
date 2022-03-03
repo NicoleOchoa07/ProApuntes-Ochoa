@@ -1,112 +1,110 @@
-main {
-    
-    #BotonDerecho{
-    text-align: right;
-    margin-left: 75%;
-}
-.card-img {
-    width: 420px;
-    height: 350px;
-}
-div {
-    div {
-        img {
-      width: 30%;
-      height: 40%;
-    }
-    }
-}
-#BotonDerecho{
-    font-size: 15px;
-    margin-left: 70%;
-}
-.card-imgFondo{
-    width: 500px;
-    height: 360px;
-}
-.TituloResumen{
-    font-size: 35px;
-}
-.card-text{
-    font-size: 25px;
-    margin: 5%;
-    text-align: center;
-
-}
-#colorRESUMEN {
-margin: 40px;
-padding-left: 5px;
-}
-@mixin font-family {
+@import 'variable';
+@import 'Home';
+@import 'Productos';
+@import url("https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@400;500&family=Roboto:ital,wght@0,300;1,100&family=Shadows+Into+Light&family=Signika+Negative:wght@300&family=Source+Sans+Pro:wght@200;400&display=swap");
+body {
+    font-family: "Cabin Condensed", sans-serif;
+    font-family: "Chathura", sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
     font-family: "Shadows Into Light", cursive;
+    font-family: "Signika Negative", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
+    background-image: linear-gradient($color-primario, $color-primarioB, $color-primario);
 }
-.card-text {
-    @include font-family("Shadows Into Light", cursive)
+header {
+    .TamañoLogo{
+    padding-top: 35px;
+}
+#BorderMenuD{
+    padding-left: 50px;
+    }
+#BorderMenuDItem {
+        padding-right:50px ;
+        padding-left: 25x;
+}
+#BorderHeader {
+    background-color: $color-navegador;
+
+}
+#BorderMenuD {
+    font-family: sans-serif;
+    color: $color-Textos;
+    font-size:3%;
+    text-align: center;
+}
+.BorderMenuD, .BorderMenuD2, .BorderMenuD3, .BorderMenuD4, .BorderMenuD5 {
+    @extend #BorderMenuD
+}
+}
+main{
+    .Titulo{
+        font-weight: bold;
+        font-family: "Signika Negative", sans-serif;
+        text-align: center;
+        color: $color-TitulosSecciones;
+        text-decoration: none;
+    }
+}
+/*Footer*/
+footer {
+    .Celda2{
+    border-left: solid $color-border;
+}
+    .NAVEGACION{
+    font-weight: bold;
+}
+    form {
+    border:solid $color-border 1px;
+    margin: 2px;
+    padding: 20px;
+    background-color: $color-navegador;
+}
+    .Espaciado1{
+    color: black;
+}
+     .FORMULARIO{
+    line-height:1.2;
+    font-weight: bold !important;
+}
 }
 
-.BoxText {
-    margin: 3%;
-    margin-top: 0.5%;
-    padding: 30px;
-    background-color: $color-amarilloOpaco;
-    font-size: 25px;
-}
-}
 @media (max-width: 992px){
-    main{
-        div {
-            div {
-               img {
-                width: 85px;
-                height: 95px;
-            }
-        }
-     }
-    } 
-    .SuprimirImg {
-        display: none;
-    }
-    #BotonDerecho{
-        font-size: 12px;
-        margin-left: 70%;
-    }
-    img{
-        .card-img {
-        display: flex;
-        width: 375px;
-        height: 300px;
-        padding-left: 10px;
-        padding-top: 10px;
+    .TamañoLogo{
+        height: 50% ;
+        width:50% ;
         padding-bottom: 1px;
-        margin: 0;
     }
-    }
-    .card-imgFondo{
-        width: 400px;
-        height: 300px;
-    }
-    .card-text{
-        font-size: 16px;
-        margin: 5%;
-        padding-top: 1%;
+    #BorderMenuD {
+        border-top: solid $color-border 1px;
+        background-color: $color-navegador;
+        padding-left: 1px;
         text-align: center;
     }
-    .card-title {
-        padding-top: 5%;
+    .BorderMenuD, .BorderMenuD2, .BorderMenuD3, .BorderMenuD4, .BorderMenuD5 {
+        @extend #BorderMenuD ;
     }
-    #colorRESUMEN {
-        background-color: rgba(0, 153, 255, 0.938);
-        margin: 0;
-        width: 400px;
-        display: flex;
-        margin-bottom: 0%;
+    /*FOOTER*/
+    .Espaciado{
+        line-height: 0.50;
     }
-    div.card-img-overlay.card-body{
-        width: 400px;
-        height: 350px;
+    .PB {
+        padding-bottom: 5%;
     }
-   
-    .main{
-        width: 3000px;   
-    } 
+    
+    .Celda1, .Celda2, .Celda3 {
+        border-left: solid rgba(135, 210, 253, 0.945) 1px;
+        font-size: small;
+        padding-left: 12px;
+    }
+    .Celda26{ 
+        line-height: 1.2;
+    }
+    .Redes {
+        width: 15%;
+        height: 15%;
+    }
+    .Celda3 {
+        padding: 40px 30px;
+    }
 }
