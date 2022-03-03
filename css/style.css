@@ -25,9 +25,14 @@ main .card-imgFondo {
   height: 360px;
 }
 
+main .TituloResumen {
+  font-size: 35px;
+}
+
 main .card-text {
-  font-size: 20px;
+  font-size: 25px;
   margin: 5%;
+  text-align: center;
 }
 
 main #colorRESUMEN {
@@ -39,6 +44,8 @@ main .BoxText {
   margin: 3%;
   margin-top: 0.5%;
   padding: 30px;
+  background-color: rgba(255, 255, 0, 0.459);
+  font-size: 25px;
 }
 
 @media (max-width: 992px) {
@@ -72,6 +79,7 @@ main .BoxText {
     font-size: 16px;
     margin: 5%;
     padding-top: 1%;
+    text-align: center;
   }
   .card-title {
     padding-top: 5%;
@@ -96,19 +104,11 @@ main .BoxText {
 
 /*MAIN productos*/
 main #BorderMain {
-  background-color: rgba(255, 255, 255, 0.938);
+  background-color: #d8fd06;
 }
 
 main .card-body {
   background-color: #f4f8fc;
-}
-
-main .TituloProdts {
-  font-weight: bold;
-  font-family: "Signika Negative", sans-serif;
-  text-align: center;
-  color: #313030;
-  text-decoration: none;
 }
 
 main .card-textP1, main .card-textP3, main .card-textP4, main .card-textP5 {
@@ -117,12 +117,16 @@ main .card-textP1, main .card-textP3, main .card-textP4, main .card-textP5 {
 }
 
 main .bg-lightblue {
-  background-color: rgba(255, 255, 255, 0.938);
+  background-color: #d8fd06;
 }
 
 main .card-header-tabs {
   padding-left: 43%;
   font-size: 25px;
+}
+
+main .Redes {
+  weight: map-get;
 }
 
 @media (max-width: 992px) {
@@ -166,15 +170,16 @@ body {
   font-family: "Shadows Into Light", cursive;
   font-family: "Signika Negative", sans-serif;
   font-family: "Source Sans Pro", sans-serif;
-  background-color: #48ff00;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 140, 197, 0.795)), color-stop(#d8fd06), to(rgba(17, 140, 197, 0.795)));
+  background-image: linear-gradient(rgba(17, 140, 197, 0.795), #d8fd06, rgba(17, 140, 197, 0.795));
 }
 
 header .TamañoLogo {
   padding-top: 35px;
 }
 
-header #BorderMenuD {
-  padding-left: 150px;
+header #BorderMenuD, header .BorderMenuD, header .BorderMenuD2, header .BorderMenuD3, header .BorderMenuD4, header .BorderMenuD5 {
+  padding-left: 50px;
 }
 
 header #BorderMenuDItem {
@@ -183,18 +188,22 @@ header #BorderMenuDItem {
 }
 
 header #BorderHeader {
-  background-color: rgba(0, 106, 192, 0.863);
+  background-color: rgba(12, 101, 160, 0.507);
 }
 
 header #BorderMenuD, header .BorderMenuD, header .BorderMenuD2, header .BorderMenuD3, header .BorderMenuD4, header .BorderMenuD5 {
   font-family: sans-serif;
-  color: #002c6e;
+  color: #6cc20a;
   font-size: 3%;
   text-align: center;
 }
 
-main {
-  background-color: rgba(255, 255, 255, 0.938);
+main .Titulo {
+  font-weight: bold;
+  font-family: "Signika Negative", sans-serif;
+  text-align: center;
+  color: #313030;
+  text-decoration: none;
 }
 
 /*Footer*/
@@ -210,7 +219,7 @@ footer form {
   border: solid rgba(92, 91, 40, 0.753) 1px;
   margin: 2px;
   padding: 20px;
-  background-color: #6496ad;
+  background-color: rgba(12, 101, 160, 0.507);
 }
 
 footer .Espaciado1 {
@@ -223,10 +232,6 @@ footer .FORMULARIO {
 }
 
 /*MAIN QS*/
-.QUIENES-SOMOS {
-  font-weight: bold;
-}
-
 /*MAIN PF*/
 /*MAIN CONTACTO*/
 /*MAIN T&C*/
@@ -236,12 +241,9 @@ footer .FORMULARIO {
     width: 50%;
     padding-bottom: 1px;
   }
-  .ColorNavegador {
-    background-color: rgba(0, 129, 250, 0.863);
-  }
-  #BorderMenuD, .BorderMenuD, .BorderMenuD2, .BorderMenuD3, .BorderMenuD4, .BorderMenuD5 {
+  #BorderMenuD, header .BorderMenuD, header .BorderMenuD2, header .BorderMenuD3, header .BorderMenuD4, header .BorderMenuD5 {
     border-top: solid rgba(92, 91, 40, 0.753) 1px;
-    background-color: rgba(0, 129, 250, 0.863);
+    background-color: rgba(12, 101, 160, 0.507);
     padding-left: 1px;
     text-align: center;
   }

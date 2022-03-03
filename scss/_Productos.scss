@@ -1,29 +1,26 @@
 /*MAIN productos*/
+$redes: (alto: 15px, ancho: 15px);
 main{
     #BorderMain {
-background-color: $color-primarioB;
+background-color: $color-card2;
 }
 .card-body{
-    background-color: #f4f8fc;
-}
-.TituloProdts{
-    font-weight: bold;
-    font-family: "Signika Negative", sans-serif;
-    text-align: center;
-    color: $color-TitulosSecciones;
-    text-decoration: none;
+    background-color: $color-card2;
 }
 .card-textP1, .card-textP3, .card-textP4, .card-textP5{
     padding-left: 5%;
-    border: solid yellow 1px;
-
+    border: solid $color-card2 1px;
 }
 .bg-lightblue {
-    background-color: $color-primarioB;
+    background-color: $color-card2;
 }
 .card-header-tabs {
 padding-left: 43%;
 font-size: 25px;
+}
+.Redes{
+    width: map-get ($redes, $ancho);
+    height: map-get ($redes, $alto);
 }
 }
 @media (max-width: 992px){

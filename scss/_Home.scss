@@ -1,4 +1,5 @@
 main {
+    
     #BotonDerecho{
     text-align: right;
     margin-left: 75%;
@@ -23,19 +24,32 @@ div {
     width: 500px;
     height: 360px;
 }
+.TituloResumen{
+    font-size: 35px;
+}
 .card-text{
-    font-size: 20px;
+    font-size: 25px;
     margin: 5%;
+    text-align: center;
+
 }
 #colorRESUMEN {
 margin: 40px;
 padding-left: 5px;
+}
+@mixin font-family {
+    font-family: "Shadows Into Light", cursive;
+}
+.card-text {
+    @include font-family("Shadows Into Light", cursive)
 }
 
 .BoxText {
     margin: 3%;
     margin-top: 0.5%;
     padding: 30px;
+    background-color: $color-amarilloOpaco;
+    font-size: 25px;
 }
 }
 @media (max-width: 992px){
@@ -75,6 +89,7 @@ padding-left: 5px;
         font-size: 16px;
         margin: 5%;
         padding-top: 1%;
+        text-align: center;
     }
     .card-title {
         padding-top: 5%;
