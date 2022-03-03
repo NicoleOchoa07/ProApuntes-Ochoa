@@ -17,14 +17,15 @@ header {
     padding-top: 35px;
 }
 #BorderMenuD{
-    padding-left: 50px;
+    padding-left: 35%;
     }
 #BorderMenuDItem {
         padding-right:50px ;
         padding-left: 25x;
+        background-color: $color-navegador;
 }
 #BorderHeader {
-    background-color: $color-navegador;
+    background-color: $color-card;
 
 }
 #BorderMenuD {
@@ -32,18 +33,21 @@ header {
     color: $color-Textos;
     font-size:3%;
     text-align: center;
+    background-color: $color-navegador;
 }
-.BorderMenuD, .BorderMenuD2, .BorderMenuD3, .BorderMenuD4, .BorderMenuD5 {
+.BorderMenuD2, .BorderMenuD3, .BorderMenuD4, .BorderMenuD5 {
     @extend #BorderMenuD
 }
 }
 main{
-    .Titulo{
-        font-weight: bold;
+    .TituloS{
+        H1{
+            font-weight: bold;
         font-family: "Signika Negative", sans-serif;
         text-align: center;
         color: $color-TitulosSecciones;
         text-decoration: none;
+        }
     }
 }
 /*Footer*/
