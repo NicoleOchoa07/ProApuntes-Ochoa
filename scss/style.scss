@@ -10,32 +10,41 @@ body {
     font-family: "Shadows Into Light", cursive;
     font-family: "Signika Negative", sans-serif;
     font-family: "Source Sans Pro", sans-serif;
-    background-color: $color-primario;
+    background-image: linear-gradient($color-primario, $color-primarioB, $color-primario);
 }
 header {
     .TamañoLogo{
     padding-top: 35px;
 }
 #BorderMenuD{
-    padding-left: 150px;
+    padding-left: 50px;
     }
 #BorderMenuDItem {
         padding-right:50px ;
         padding-left: 25x;
 }
 #BorderHeader {
-        background-color: rgba(0, 106, 192, 0.863);
+    background-color: $color-navegador;
 
 }
-#BorderMenuD, .BorderMenuD, .BorderMenuD2, .BorderMenuD3, .BorderMenuD4, .BorderMenuD5 {
+#BorderMenuD {
     font-family: sans-serif;
     color: $color-Textos;
     font-size:3%;
     text-align: center;
 }
+.BorderMenuD, .BorderMenuD2, .BorderMenuD3, .BorderMenuD4, .BorderMenuD5 {
+    @extend #BorderMenuD
+}
 }
 main{
-    background-color: $color-primarioB;
+    .Titulo{
+        font-weight: bold;
+        font-family: "Signika Negative", sans-serif;
+        text-align: center;
+        color: $color-TitulosSecciones;
+        text-decoration: none;
+    }
 }
 /*Footer*/
 footer {
@@ -49,7 +58,7 @@ footer {
     border:solid $color-border 1px;
     margin: 2px;
     padding: 20px;
-    background-color: rgb(100, 150, 173);
+    background-color: $color-navegador;
 }
     .Espaciado1{
     color: black;
@@ -59,27 +68,21 @@ footer {
     font-weight: bold !important;
 }
 }
-/*MAIN QS*/
-.QUIENES-SOMOS {
-    font-weight: bold;
-}
-/*MAIN PF*/
-/*MAIN CONTACTO*/
-/*MAIN T&C*/
+
 @media (max-width: 992px){
     .TamañoLogo{
         height: 50% ;
         width:50% ;
         padding-bottom: 1px;
     }
-    .ColorNavegador {
-        background-color: $color-navegador;
-    }
-    #BorderMenuD, .BorderMenuD, .BorderMenuD2, .BorderMenuD3, .BorderMenuD4, .BorderMenuD5 {
+    #BorderMenuD {
         border-top: solid $color-border 1px;
         background-color: $color-navegador;
         padding-left: 1px;
         text-align: center;
+    }
+    .BorderMenuD, .BorderMenuD2, .BorderMenuD3, .BorderMenuD4, .BorderMenuD5 {
+        @extend #BorderMenuD ;
     }
     /*FOOTER*/
     .Espaciado{
