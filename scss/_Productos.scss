@@ -1,6 +1,13 @@
 /*MAIN productos*/
 $redes: (alto: 15px, ancho: 15px);
 main{
+    .TituloProduct {
+    font-weight: bold;
+    font-family: "Signika Negative", sans-serif;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    }
     #BorderMain {
 background-color: $color-card;
 }

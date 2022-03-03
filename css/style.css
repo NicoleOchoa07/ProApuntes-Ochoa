@@ -103,6 +103,13 @@ main .BoxText {
 }
 
 /*MAIN productos*/
+main .TituloProduct {
+  font-weight: bold;
+  font-family: "Signika Negative", sans-serif;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  }
 main #BorderMain {
   background-color: #d8fd06;
 }
