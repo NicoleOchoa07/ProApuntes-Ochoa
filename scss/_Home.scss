@@ -7,7 +7,6 @@ body {
     font-family: "Shadows Into Light", cursive;
     font-family: "Signika Negative", sans-serif;
     font-family: "Source Sans Pro", sans-serif;
-    background-image: linear-gradient($color-primario, $color-primarioB, $color-primario);
 }
 $buttom:(masInfo1:#3b5998, masInfo2:#ddfd26);
 header {
@@ -49,8 +48,8 @@ main{
         text-decoration-style: $type;
     }
     .btn-1 {
-        @include subrayado(#3b5998, dotted);
-        @include negrita;
+        @include underline(#db150e, dotted);
+        @include bold;
     }
 
 }

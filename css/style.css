@@ -22,7 +22,8 @@ main #BotonDerecho {
 
 main .card-imgFondo {
   width: 500px;
-  height: 360px;
+  height: 360px;  
+
 }
 
 main .TituloResumen {
@@ -44,7 +45,7 @@ main .BoxText {
   margin: 3%;
   margin-top: 0.5%;
   padding: 30px;
-  background-color: rgba(255, 255, 0, 0.459);
+  background-color: rgb(255, 255, 0);
   font-size: 25px;
 }
 
@@ -82,7 +83,7 @@ main .BoxText {
     text-align: center;
   }
   .card-title {
-    padding-top: 5%;
+    padding-top: 5%;background-color: #e6fa36;
   }
   #colorRESUMEN {
     background-color: rgba(0, 153, 255, 0.938);
@@ -115,7 +116,7 @@ main #BorderMain {
 }
 
 main .card-body {
-  background-color: #f4f8fc;
+  background-color: rgb(255, 255, 106);
 }
 
 main .card-textP1, main .card-textP3, main .card-textP4, main .card-textP5 {
@@ -124,7 +125,7 @@ main .card-textP1, main .card-textP3, main .card-textP4, main .card-textP5 {
 }
 
 main .bg-lightblue {
-  background-color: #d8fd06;
+  background-color: #fdf906;
 }
 
 main .card-header-tabs {
@@ -177,9 +178,10 @@ body {
   font-family: "Shadows Into Light", cursive;
   font-family: "Signika Negative", sans-serif;
   font-family: "Source Sans Pro", sans-serif;
-  background-image: -webkit-gradient (linear, left top, left bottom, from(rgba(17, 140, 197, 0.795)), color-stop(#d8fd06), to(rgba(17, 140, 197, 0.795)));
-  background-image: linear-gradient(rgba(17, 140, 197, 0.795), #d8fd06, rgba(17, 140, 197, 0.795));
+  background-image: -webkit-gradient (linear, left top, left bottom, from(rgba(251, 254, 255, 0.795)), color-stop(#e6fa36), to(rgba(17, 140, 197, 0.795)));
+  background-image: url(/Imagenes/Body.JPG);
 }
+
 
 header .TamañoLogo {
   padding-top: 35px;
@@ -195,7 +197,7 @@ header #BorderMenuDItem {
 }
 
 header #BorderHeader {
-  background-color: rgba(12, 101, 160, 0.507);
+  background-color: rgba(35, 167, 207, 0.507);
 }
 
 header #BorderMenuD, header .BorderMenuD, header .BorderMenuD2, header .BorderMenuD3, header .BorderMenuD4, header .BorderMenuD5 {
@@ -250,7 +252,7 @@ footer .FORMULARIO {
   }
   #BorderMenuD, header .BorderMenuD, header .BorderMenuD2, header .BorderMenuD3, header .BorderMenuD4, header .BorderMenuD5 {
     border-top: solid rgba(92, 91, 40, 0.753) 1px;
-    background-color: rgba(12, 101, 160, 0.507);
+    background-color: rgb(248, 252, 255);
     padding-left: 1px;
     text-align: center;
   }
@@ -262,7 +264,7 @@ footer .FORMULARIO {
     padding-bottom: 5%;
   }
   .Celda1, .Celda2, .Celda3 {
-    border-left: solid rgba(135, 210, 253, 0.945) 1px;
+    border-left: solid rgba(255, 255, 255, 0.945) 1px;
     font-size: small;
     padding-left: 12px;
   }
