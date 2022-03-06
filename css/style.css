@@ -1,4 +1,5 @@
-@impor body {
-  background-image: url(../Imagenes/Body.JPG);
+body {
+  background-image: url("/Imagenes/Body.JPG");
+  font-size: 25px;
 }
 /*# sourceMappingURL=style.css.map */

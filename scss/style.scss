@@ -1,11 +1,5 @@
-@import 'variables';
-@import 'Home';
-@import 'Productos';
-@import 'QS';
-@import 'PF';
-@import 'Contacto';
-@import 'TyC';
-
-body {
-    background-image: url(../Imagenes/Body.JPG);
+body{
+    background-image: url("/Imagenes/Body.JPG");
+    font-size: 25px;
 }
+
