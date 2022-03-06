@@ -1,5 +1,5 @@
 function isIn(needle, haystack) {
-  return haystack.indexOf(needle) >= 0;
+  return haystack./indexOf(needle) >= 0;
 }
 
 function extend(custom, defaults) {
@@ -288,7 +288,7 @@ export default class WOW {
   }
 
   resetAnimation(event) {
-    if (event.type.toLowerCase().indexOf('animationend') >= 0) {
+    if (event.type.toLowerCase()./indexOf('animationend') >= 0) {
       const target = event.target || event.srcElement;
       target.className = target.className.replace(this.config.animateClass, '').trim();
     }
