@@ -43,50 +43,38 @@
     <br></br>
     <section class="ContactoMain wow animate__animated animate__fadeInDown"> 
       <div class="container-fluid">
-        <h1 class="Animation text-center Titulo">Contacto</h1>
+        <h1 class="Animation text-center Titulo">CONTACTO</h1>
         <br></br>  
         <div class="row">
           <div class="col-sm-12 col-md-6 col-xl-6">
            <article>
-             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> 
-           </article>
+             <p>Para enviarnos alguna propuesta, llenar el siguiente formulario. Todas las secciones de este deben ser llenados.</p>
+             <p> En la parte de "texto" incluir los siguientes items.</p> 
+             <ul>
+               <li>
+                  <h1>Descripción del Material:</h1>
+                  <ul>
+                    <li>Materia donde se utiliza el material</li>
+                    <li>En caso de ser un libro, fotocopia o apartado bibliografico se debe aclarar el nombre de este, autor y edición (si la tuviera).</li>
+                    <li>En caso contrario al punto anterior, mencionar lo transcendental, como si son resumenes de la materia o por unidad; notas de clases,ffichas de trabajo (como fotocopia para poder hacer el mayor de cuentas - Contabilidad I), etc. </li>
+                    <li>El estado del material, como subrayado en algunas partes, o en estado nuevo.</li>
+                  </ul>
+                </li>
+               <li>Medios de Pago;</li>
+               <li>Forma de contacto, ejemplo, Facebook, Instagram, email. entre otras, o Servicio de Venta (en caso de contratar este servicio);</li>
+              </ul>
+              <p>En la sección "adjuntar", se debe subir la imagen del material, cuanta mejor calidad de imagen mejor. Se aceptan solo formatos jpg o png.</p>
+              <p>Si tiene la intención de enviar varios materiales a la vez, en la parte de "Texto" separar en secciones los materiales a vender. Y las imagenes deben estar enumeradas según parrafo correspondiente.</p>
+              <p>Si desea contratar el Servicio de Ventas se debera contar con alguna billetera virtual, y mandar los datos de transferencia. Para saber más sobre los terminos de contratación puede leerlo en el siguiente <a href="TyC.html"> link.</a></p>
+            </article>
           </div>
           <div class="col-sm-12 col-md-6 col-xl-6">
             <div class="card mt-4 mb-4">
               <div class="card-body">
-                <form>
-                  <div class="row mb-3">
-                    <label for="colFormLabel" class="col-sm-2 col-form-label">Nombre:</label>
-                    <div class="col-sm-10">
-                      <input type="email" class="form-control" id="colFormLabel" placeholder="Ingrese nombre...">
-                    </div>
-                  </div>
-                  <div class="row mb-3">
-                    <label for="colFormLabel" class="col-sm-2 col-form-label">Email:</label>
-                    <div class="col-sm-10">
-                      <input type="email" class="form-control" id="colFormLabel" placeholder="Ingrese correo...">
-                    </div>
-                  </div>
-                  <div class="form-floating">
-                    <textarea class="form-control" placeholder="Dejar un mensaje..." id="floatingTextarea"></textarea>
-                    <label for="floatingTextarea">Mensaje</label>
-                  </div>
-                  <br></br>
-                  <div class="col-auto row mb-3">
-                    <label class="visually-hidden" for="autoSizingSelect">Preference</label>
-                    <select class="form-select" id="autoSizingSelect">
-                      <option selected>Elejir carrera</option>
-                      <option value="LA">LA</option>
-                      <option value="CP">CP</option>
-                      <option value="LE">LE</option>
-                      <option value="LT">LT</option>
-                      <option value="TC">TC</option>
-                    </select>
-                  </div>
-                  <div class="btn-group me-2" role="group" aria-label="Second group">
-                    <button type="button" class="btn btn-secondary">Enviar</button>
-                    <button type="button" class="btn btn-secondary">Limpiar Formulario</button>
-                  </div>
+                <form action="https://formspree.io/f/{form_id}" method="post">
+                  <label for="email">Your Email</label>
+                  <input name="Email" id="email" type="email">
+                  <button type="submit">Submit</button>
                 </form>
               </div>
             </div>
