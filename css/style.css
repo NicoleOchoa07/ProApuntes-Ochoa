@@ -29,7 +29,7 @@
   }
   body main .Home .BoxText {
     background-color: rgba(238, 255, 2, 0.596);
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.829)), color-stop(rgba(238, 255, 2, 0.596)), color-stop(rgba(238, 255, 2, 0.596)), to(rgba(255, 255, 255, 0.829)));
+    background-image: -webkit-gradient (linear, left top, right top, from(rgba(255, 255, 255, 0.829)), color-stop(rgba(238, 255, 2, 0.596)), color-stop(rgba(238, 255, 2, 0.596)), to(rgba(255, 255, 255, 0.829)));
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.829), rgba(238, 255, 2, 0.596), rgba(238, 255, 2, 0.596), rgba(255, 255, 255, 0.829));
   }
   body main .Home .HomeImg9 {
@@ -60,7 +60,7 @@
   }
   main .Home .BoxText {
     font-size: 20px;
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.829)), color-stop(rgba(238, 255, 2, 0.596)), to(rgba(255, 255, 255, 0.829)));
+    background-image: -webkit-gradient (linear, left top, right top, from(rgba(255, 255, 255, 0.829)), color-stop(rgba(238, 255, 2, 0.596)), to(rgba(255, 255, 255, 0.829)));
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.829), rgba(238, 255, 2, 0.596), rgba(255, 255, 255, 0.829));
   }
   main .Home .HomeImg2 {
