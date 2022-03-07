@@ -183,7 +183,7 @@ body {
 }
 
 
-header .TamañoLogo {
+header .TamanoLogo {
   padding-top: 35px;
 }
 
@@ -245,7 +245,7 @@ footer .FORMULARIO {
 /*MAIN CONTACTO*/
 /*MAIN T&C*/
 @media (max-width: 992px) {
-  .TamañoLogo {
+  .TamanoLogo {
     height: 50%;
     width: 50%;
     padding-bottom: 1px;
