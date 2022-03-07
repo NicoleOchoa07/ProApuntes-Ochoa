@@ -10,8 +10,8 @@
     <link rel="shortcut icon" href="../Imagenes/favicon-32x32.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="css/animate.min.css">
-    <script src="js/wow.min.js"></script>
+    <link rel="stylesheet" href="/css/animate.min.css">
+    <script src="/js/wow.min.js"></script>
     <script>
         new WOW().init();
     </script>
@@ -52,7 +52,7 @@
              <p> En la parte de "texto" incluir los siguientes items.</p> 
              <ul>
                <li>
-                  <h1>Descripción del Material:</h1>
+                  Descripción del Material:
                   <ul>
                     <li>Materia donde se utiliza el material</li>
                     <li>En caso de ser un libro, fotocopia o apartado bibliografico se debe aclarar el nombre de este, autor y edición (si la tuviera).</li>
@@ -61,20 +61,78 @@
                   </ul>
                 </li>
                <li>Medios de Pago;</li>
-               <li>Forma de contacto, ejemplo, Facebook, Instagram, email. entre otras, o Servicio de Venta (en caso de contratar este servicio);</li>
+               <li>Forma de contacto: aclarar si es una red social (pegar el link de tu perfil), Email o nuestro Servicio de Venta;</li>
               </ul>
               <p>En la sección "adjuntar", se debe subir la imagen del material, cuanta mejor calidad de imagen mejor. Se aceptan solo formatos jpg o png.</p>
               <p>Si tiene la intención de enviar varios materiales a la vez, en la parte de "Texto" separar en secciones los materiales a vender. Y las imagenes deben estar enumeradas según parrafo correspondiente.</p>
-              <p>Si desea contratar el Servicio de Ventas se debera contar con alguna billetera virtual, y mandar los datos de transferencia. Para saber más sobre los terminos de contratación puede leerlo en el siguiente <a href="TyC.html"> link.</a></p>
+              <p>Si desea contratar el Servicio de Venta se debera contar con alguna billetera virtual, y mandar los datos de transferencia a "Forma de pago". Para saber más sobre los terminos de contratación puede leerlo en el siguiente <a href="TyC.html"> link.</a></p>
             </article>
           </div>
           <div class="col-sm-12 col-md-6 col-xl-6">
             <div class="card mt-4 mb-4">
               <div class="card-body">
-                <form action="https://formspree.io/f/{form_id}" method="post">
-                  <label for="email">Your Email</label>
-                  <input name="Email" id="email" type="email">
-                  <button type="submit">Submit</button>
+                <form class="row g-3">
+                  <div class="col-md-4">
+                    <label for="validationDefault01" class="form-label" for="name">Nombre:</label>
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control" id="validationDefault01" placeholder="Ingrese nombre..." required>
+                    </div>
+                  </div>
+                  <div class="col-md-8">
+                    <label for="validationDefault01" class="form-label" for="email">Email:</label>
+                    <div class="col-sm-10">
+                      <input type="email" class="form-control" id="validationDefault01" placeholder="Ingrese email..." required>
+                    </div>
+                  </div>
+                  <div class="form-floating col-md-11">
+                    <label for="validationDefault01" class="form-label">Texto:</label>
+                    <br></br>  
+                    <div class="col-sm-12">
+                      <textarea class="form-control" id="validationDefault01" placeholder="Ingrese texto..." id="floatingTextarea"  type="text" required></textarea>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="validationDefault01" class="form-label" for="name">Forma de pago:</label>
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control" id="validationDefault01" placeholder="Ingrese forma de pago..." required>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="validationDefault01" class="form-label" for="name">Forma de contacto:</label>
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control" id="validationDefault01" placeholder="Ingrese forma de contacto..." required>
+                    </div>
+                  </div>
+                  <div class="mb-3 col-sm-8">
+                    <label for="formFileMultiple validationDefault01" class="form-label"></label>
+                    <input class="form-control" type="file" id="formFileMultiple" multiple>
+                  </div> 
+                  <div class="col-md-6">
+                    <div class="">
+                      <label for="validationDefault04" class="form-label">Elegir carrera</label>
+                      <select class="form-select" id="validationDefault04" name="Select" type="select" required>
+                        <option selected disabled value="">Elegir...</option>
+                        <option>...</option>
+                        <option value="LA">LA</option>
+                        <option value="CP">CP</option>
+                        <option value="LE">LE</option>
+                        <option value="LT">LT</option>
+                        <option value="TC">TC</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                      <label class="form-check-label" for="invalidCheck2">
+                        Estoy deacuerdo con los terminos y condiciones de uso.
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <button class="btn btn-primary" type="submit">Enviar</button>
+                    <button class="btn btn-primary" type="reset">Limpiar Formulario</button>
+                  </div>
                 </form>
               </div>
             </div>
@@ -114,31 +172,32 @@
                     </nav>
                 </div>
                 <div class="Celda3 container-fluid col-sm-12 col-md-6 col-xl-4 PB">
-                    <form>
-                        <h8 class="FORMULARIO col-sm-2 text-dark">FORMULARIO</h8>
-                        <br></br>
-                        <div class="row mb-3">
-                            <label for="colFormLabel" class="col-sm-2 col-form-label">Nombre:</label>
-                            <div class="col-sm-10">
-                              <input type="email" class="form-control" id="colFormLabel" placeholder="Ingrese nombre...">
-                            </div>
-                        </div>
-                        <div class="row mb-3">
-                            <label for="colFormLabel" class="col-sm-2 col-form-label">Email:</label>
-                            <div class="col-sm-10">
-                              <input type="email" class="form-control" id="colFormLabel" placeholder="Ingrese correo...">
-                             </div>
-                        </div>
-                        <div class="form-floating">
-                           <textarea class="form-control" placeholder="Dejar un mensaje..." id="floatingTextarea"></textarea>
-                           <label for="floatingTextarea">Mensaje</label>
-                        </div>
-                        <br></br>
-                        <div class="btn-group me-2" role="group" aria-label="Second group">
-                           <button type="submit" class="btn btn-secondary">Enviar </button>
-                           <button type="reset" class="btn btn-secondary">Limpiar Formulario
-                        </div>
-                    </form>
+                  <form class="row g-3">
+                    <div class="col-md-12">
+                      <label for="validationDefault01" class="form-label" for="name">Nombre:</label>
+                      <div class="col-sm-10">
+                        <input type="text" class="form-control" id="validationDefault01" placeholder="Ingrese nombre..." name="Name" required>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <label for="validationDefault01" class="form-label" for="email">Email:</label>
+                      <div class="col-sm-10">
+                        <input type="email" class="form-control" id="validationDefault01" placeholder="Ingrese email..." name="Email" required>
+                      </div>
+                    </div>
+                    <div class="form-floating col-md-12">
+                      <label for="validationDefault01" class="form-label">Mensaje:</label>
+                      <br></br>  
+                      <div class="col-sm-12">
+                        <textarea class="form-control" id="validationDefault01" placeholder="Ingrese mensaje..." id="floatingTextarea" name="Text" type="text" required></textarea>
+                      </div>
+                    </div>
+                    <br></br>  
+                    <div class="col-12">
+                      <button class="btn btn-primary" type="submit">Enviar</button>
+                      <button class="btn btn-primary" type="reset">Limpiar Formulario</button>
+                    </div>
+                  </form>
                 </div>
             </div>
             <br></br>
