@@ -1,7 +1,5 @@
 @import 'variable';
 @import 'Home';
-@import 'Productos';
-@import 'QS';
 @import 'Contacto';
 @import url('https://fonts.googleapis.com/css2?family=Itim&family=Magra&family=Montserrat:ital,wght@0,200;0,400;0,600;0,700;1,200&family=Patrick+Hand&family=Patrick+Hand+SC&display=swap');
 
@@ -27,10 +25,6 @@
         }
     }
     main .Home {
-        font-size: $font-size-lg;
-        .row {
-            background-color: $color-card2;
-        }
         .Bienvenidos {
             padding-top: 1%;
         }
@@ -41,6 +35,11 @@
         .HomeImg9{
             width: 550px ;
             height: 400px ;
+        }
+        .CardResumen {
+            border: none;
+            border-radius: 0;
+            background-color: $color-card2
         }
     }
     footer{
@@ -81,6 +80,12 @@
                 weight: map-get;
             }
 
+        }
+        /*Letra en secciones QS, PF y TyC*/
+        main{
+            .FontSize{
+                font-size: 50px;
+            }
         }
 }
 
@@ -132,7 +137,6 @@
             margin: 3%;
             margin-top: 0.5%;
             padding: 30px;
-            background-color: rgb(255, 255, 0);
             font-size: 25px;
         }
     }

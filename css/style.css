@@ -8,6 +8,7 @@
     font-family: 'Patrick Hand SC', cursive;
     font-family: 'Patrick Hand', cursive;
     /*Main Productos*/
+    /*Letra en secciones QS, PF y TyC*/
   }
   body header .navbar-light {
     background-color: rgba(176, 214, 240, 0.507);
@@ -19,26 +20,22 @@
     padding-left: 25%;
     text-align: center;
   }
-  body main .Home {
-    font-size: 25px;
-  }
-  body main .Home .row {
-    background-color: rgba(238, 255, 2, 0.596);
-  }
   body main .Home .Bienvenidos {
     padding-top: 1%;
   }
   body main .Home .BoxText {
-    background-color: rgba(238, 255, 2, 0.596);
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.829)), color-stop(rgba(238, 255, 2, 0.596)), color-stop(rgba(238, 255, 2, 0.596)), to(rgba(255, 255, 255, 0.829)));
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.829), rgba(238, 255, 2, 0.596), rgba(238, 255, 2, 0.596), rgba(255, 255, 255, 0.829));
+    background-color: rgba(251, 255, 2, 0.692);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.829)), color-stop(rgba(251, 255, 2, 0.692)), color-stop(rgba(251, 255, 2, 0.692)), to(rgba(255, 255, 255, 0.829)));
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.829), rgba(251, 255, 2, 0.692), rgba(251, 255, 2, 0.692), rgba(255, 255, 255, 0.829));
   }
   body main .Home .HomeImg9 {
     width: 550px;
     height: 400px;
   }
-  body main .Home .Card-M {
-    margin: 10px;
+  body main .Home .CardResumen {
+    border: none;
+    border-radius: 0;
+    background-color: rgba(251, 255, 2, 0.692);
   }
   body footer {
     height: 50px;
@@ -61,19 +58,22 @@
     color: black;
   }
   body #MainProductos #BorderMain {
-    background-color: rgba(238, 255, 2, 0.596);
+    background-color: rgba(251, 255, 2, 0.692);
   }
   body #MainProductos .card-body {
-    background-color: rgba(238, 255, 2, 0.596);
+    background-color: rgba(251, 255, 2, 0.692);
   }
   body #MainProductos .bg-lightblue {
-    background-color: rgba(238, 255, 2, 0.596);
+    background-color: rgba(251, 255, 2, 0.692);
   }
   body #MainProductos .card-header-tabs {
     font-size: 30px;
   }
   body #MainProductos .Redes {
     weight: map-get;
+  }
+  body main .FontSize {
+    font-size: 50px;
   }
 }
 
@@ -89,8 +89,8 @@
   }
   main .Home .BoxText {
     font-size: 20px;
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.829)), color-stop(rgba(238, 255, 2, 0.596)), to(rgba(255, 255, 255, 0.829)));
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.829), rgba(238, 255, 2, 0.596), rgba(255, 255, 255, 0.829));
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.829)), color-stop(rgba(251, 255, 2, 0.692)), to(rgba(255, 255, 255, 0.829)));
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.829), rgba(251, 255, 2, 0.692), rgba(255, 255, 255, 0.829));
   }
   main .Home .HomeImg2 {
     width: 377px;
@@ -120,7 +120,6 @@
     margin: 3%;
     margin-top: 0.5%;
     padding: 30px;
-    background-color: yellow;
     font-size: 25px;
   }
   footer .Celda3 {
