@@ -3,14 +3,14 @@
 @import 'Contacto';
 @import url('https://fonts.googleapis.com/css2?family=Itim&family=Magra&family=Montserrat:ital,wght@0,200;0,400;0,600;0,700;1,200&family=Patrick+Hand&family=Patrick+Hand+SC&display=swap');
 
-
-@media (min-width: 993px) {
-    body{
+body{
     background-image: url("../Imagenes/General/Body.JPG");
     font-family: 'Magra', sans-serif;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Patrick Hand SC', cursive;
     font-family: 'Patrick Hand', cursive;
+}
+
     header{
         .navbar-light{
             background-color: $navbar-light-color;
@@ -37,15 +37,19 @@
             height: 400px ;
         }
         .CardResumen {
+            text-align: center;
+            font-size: 25px;
             border: none;
             border-radius: 0;
             background-color: $color-card2
         }
+        .CardTitleSize{
+            font-size: 28px;
+        }
     }
     footer{
-        height: 50px;
         .Celda2, .Celda1 {
-            font-size: 25px;
+            font-size: 16px;
         }
         .Celda3{
              padding-top: 3%;
@@ -87,7 +91,6 @@
                 font-size: 50px;
             }
         }
-}
 
 @media (max-width: 992px) {
     header{
@@ -153,5 +156,4 @@
             }
         }  
     }
-}
 }
