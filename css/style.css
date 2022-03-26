@@ -26,8 +26,8 @@ main .Home .Bienvenidos {
 
 main .Home .BoxText, main .Home #BoxText {
   background-color: rgba(255, 251, 2, 0.952);
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.829)), color-stop(rgba(255, 251, 2, 0.952)), color-stop(rgba(255, 251, 2, 0.952)), to(rgba(255, 255, 255, 0.829)));
-  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.829), rgba(255, 251, 2, 0.952), rgba(255, 251, 2, 0.952), rgba(255, 255, 255, 0.829));
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(235, 227, 227, 0.829)), color-stop(rgba(255, 251, 2, 0.952)), color-stop(rgba(255, 251, 2, 0.952)), to(rgba(235, 227, 227, 0.829)));
+  background-image: linear-gradient(to right, rgba(235, 227, 227, 0.829), rgba(255, 251, 2, 0.952), rgba(255, 251, 2, 0.952), rgba(235, 227, 227, 0.829));
 }
 
 main .Home .HomeImg9 {
@@ -47,6 +47,10 @@ main .Home .CardTitleSize {
   font-size: 28px;
 }
 
+hr {
+  border: solid rgba(16, 104, 126, 0.863) 1.5px;
+}
+
 footer .Celda2, footer .Celda1 {
   font-size: 16px;
 }
@@ -61,7 +65,7 @@ footer .Celda3 form {
 }
 
 /*Main Productos*/
-#MainProductos .TituloProduct {
+#MainProductos .card-textP1, #MainProductos .TituloProduct {
   font-weight: bold;
   font-family: "Signika Negative", sans-serif;
   text-align: center;
@@ -89,15 +93,40 @@ footer .Celda3 form {
   weight: map-get;
 }
 
+.SizeImg {
+  height: 350px;
+  width: 300px;
+  padding-left: 5%;
+  margin-left: 19%;
+}
+
+.ColorCard {
+  background-color: rgba(235, 227, 227, 0.829);
+}
+
+.card-textP2 {
+  font-size: 21px;
+}
+
+.card-textP3, .card-textP4 {
+  font-size: 20px;
+}
+
 /*Letra en secciones QS, PF y TyC*/
 main .FontSize {
   font-size: 20px;
   padding-left: 20%;
   padding-right: 20%;
   list-style-type: none;
+  font-family: 'Magra', sans-serif;
+  color: black;
 }
 
 /*Contacto*/
+.FormMain {
+  background-color: rgba(176, 214, 240, 0.507);
+}
+
 @media (max-width: 992px) {
   header .navbar-light {
     margin: 2%;
@@ -106,12 +135,12 @@ main .FontSize {
     padding: 0;
   }
   header #BorderMenuDItem {
-    border-top: solid rgba(6, 72, 88, 0.527) 1px;
+    border-top: solid rgba(16, 104, 126, 0.863) 1.5px;
   }
   main .Home .BoxText {
     font-size: 20px;
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.829)), color-stop(rgba(255, 251, 2, 0.952)), to(rgba(255, 255, 255, 0.829)));
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.829), rgba(255, 251, 2, 0.952), rgba(255, 255, 255, 0.829));
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(235, 227, 227, 0.829)), color-stop(rgba(255, 251, 2, 0.952)), to(rgba(235, 227, 227, 0.829)));
+    background-image: linear-gradient(to right, rgba(235, 227, 227, 0.829), rgba(255, 251, 2, 0.952), rgba(235, 227, 227, 0.829));
   }
   main .Home .HomeImg2 {
     width: 377px;
@@ -143,14 +172,33 @@ main .FontSize {
     padding: 30px;
     font-size: 25px;
   }
-  footer .Celda3 {
+  /*Productos*/
+  .SizeImg {
+    margin-left: 17%;
+  }
+  .card-textP1 {
+    font-size: 25px;
+  }
+  .card-textP2, .card-textP3, .card-textP4 {
+    font-size: 20px;
+  }
+  /*Letra en secciones QS, PF y TyC*/
+  main .FontSize {
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: justify;
+  }
+  main .FontSizeContacto {
+    font-size: 20px;
+  }
+  main footer .Celda3 {
     padding: 5%;
   }
-  footer .Celda3 form {
+  main footer .Celda3 form {
     background-color: rgba(176, 214, 240, 0.507);
-    border: solid rgba(6, 72, 88, 0.527) 1px;
+    border: solid rgba(16, 104, 126, 0.863) 1.5px;
   }
-  footer .Celda3 form .height {
+  main footer .Celda3 form .height {
     height: 50px;
   }
 }

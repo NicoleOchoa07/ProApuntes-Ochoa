@@ -46,6 +46,9 @@ body{
             font-size: 28px;
         }
     }
+    hr{
+        border: $border;
+    }
     footer{
         .Celda2, .Celda1 {
             font-size: 16px;
@@ -59,42 +62,60 @@ body{
        }
     }
      /*Main Productos*/
-        #MainProductos{
-            .TituloProduct {
-                font-weight: bold;
-                font-family: "Signika Negative", sans-serif;
-                text-align: center;
-                text-decoration: none;
-                color: black;
+    #MainProductos{
+        .card-textP1, .TituloProduct {
+            font-weight: bold;
+            font-family: "Signika Negative", sans-serif;
+            text-align: center;
+            text-decoration: none;
+            color: black;
             }
-              #BorderMain {
-                background-color: $color-card2;
-            }
-              .card-body {
-                background-color: $color-card2;
-            }
-              .bg-lightblue {
-                background-color: $color-card2;
-            }
-              .card-header-tabs {
-                font-size: 30px;
-            }
-              .Redes {
-                weight: map-get;
-            }
-
-        }
+    #BorderMain {
+        background-color: $color-card2;
+    }
+    .card-body {
+        background-color: $color-card2;
+    }
+    .bg-lightblue {
+        background-color: $color-card2;
+    }
+    .card-header-tabs {
+        font-size: 30px;
+    }
+    .Redes {
+        weight: map-get;
+    }
+}
+    .SizeImg{
+        height: 350px;
+        width: 300px;
+        padding-left: 5%;
+        margin-left: 19%;
+    }
+    .ColorCard{
+        background-color: $color-primario;
+    }
+    .card-textP2{
+        font-size: 21px;
+    }
+    .card-textP3, .card-textP4{
+        font-size: 20px;
+    }
         /*Letra en secciones QS, PF y TyC*/
-        main{
-            .FontSize{
-                font-size: 20px;
-                padding-left: 20%;
-                padding-right: 20%;
-                list-style-type: none;
-            }
+    main{
+        .FontSize{
+            font-size: 20px;
+            padding-left: 20%;
+            padding-right: 20%;
+            list-style-type: none;
+            font-family: 'Magra', sans-serif;
+            color: $color-card;
         }
+    }
         /*Contacto*/
-
+    .FormMain{
+        background-color: $color-navegador;
+    }
 @media (max-width: 992px) {
     header{
         .navbar-light{
@@ -146,7 +167,26 @@ body{
             font-size: 25px;
         }
     }
-
+    /*Productos*/
+    .SizeImg{
+        margin-left: 17%;
+    }
+    .card-textP1{
+        font-size: 25px;
+        }
+        .card-textP2, .card-textP3, .card-textP4{
+        font-size: 20px;
+        }
+    /*Letra en secciones QS, PF y TyC*/
+    main{
+        .FontSize{
+            padding-left: 5%;
+            padding-right: 5%;
+            text-align: justify;
+        }
+        .FontSizeContacto {
+            font-size: 20px;
+        }
     footer{
         .Celda3{
             padding: 5%; 
@@ -159,4 +199,5 @@ body{
             }
         }  
     }
+}
 }
