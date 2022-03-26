@@ -1,5 +1,4 @@
 @import 'variable';
-@import 'Home';
 @import 'Contacto';
 @import url('https://fonts.googleapis.com/css2?family=Itim&family=Magra&family=Montserrat:ital,wght@0,200;0,400;0,600;0,700;1,200&family=Patrick+Hand&family=Patrick+Hand+SC&display=swap');
 
@@ -28,7 +27,7 @@ body{
         .Bienvenidos {
             padding-top: 1%;
         }
-        .BoxText{
+        .BoxText, #BoxText{
             background-color: $color-card2;
             background-image:linear-gradient(to right, $color-primario, $color-card2, $color-card2, $color-primario) ;
         }
@@ -88,9 +87,13 @@ body{
         /*Letra en secciones QS, PF y TyC*/
         main{
             .FontSize{
-                font-size: 50px;
+                font-size: 20px;
+                padding-left: 20%;
+                padding-right: 20%;
+                list-style-type: none;
             }
         }
+        /*Contacto*/
 
 @media (max-width: 992px) {
     header{
