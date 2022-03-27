@@ -89,10 +89,6 @@ footer .Celda3 form {
   font-size: 30px;
 }
 
-#MainProductos .Redes {
-  weight: map-get;
-}
-
 .SizeImg {
   height: 350px;
   width: 300px;
