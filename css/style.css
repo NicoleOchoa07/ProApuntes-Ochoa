@@ -111,10 +111,10 @@ footer .Celda3 form {
 /*Letra en secciones QS, PF y TyC*/
 main .FontSize {
   font-size: 20px;
+  font-family: 'Magra', sans-serif;
   padding-left: 20%;
   padding-right: 20%;
   list-style-type: none;
-  font-family: 'Magra', sans-serif;
   color: black;
 }
 
@@ -124,8 +124,7 @@ main .FontSize {
 }
 
 .FontSizeContacto {
-  font-size: 20px;
-  font-family: 'Magra', sans-serif;
+  @includefon;
 }
 
 @media (max-width: 992px) {

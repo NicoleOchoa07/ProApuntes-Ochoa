@@ -55,28 +55,25 @@ body{
         }
         .Celda3{
              padding-top: 3%;
-           form {
-        background-color: $color-navegador;
-        padding-bottom: 2%;
+           .form {
+            background-color: $color-navegador;
+            padding-bottom: 2%;
            }  
        }
     }
      /*Main Productos*/
     #MainProductos{
-        .card-textP1, .TituloProduct {
+        @mixin bold{
             font-weight: bold;
             font-family: "Signika Negative", sans-serif;
             text-align: center;
             text-decoration: none;
             color: black;
-            }
-    #BorderMain {
-        background-color: $color-card2;
-    }
-    .card-body {
-        background-color: $color-card2;
-    }
-    .bg-lightblue {
+        }
+        .card-textP1, .TituloProduct {
+           @include bold;
+        }
+    #BorderMain, .card-body, .bg-lightblue {
         background-color: $color-card2;
     }
     .card-header-tabs {
@@ -100,13 +97,16 @@ body{
     }
         /*Letra en secciones QS, PF y TyC*/
     main{
-        .FontSize{
+        @mixin font-size{
             font-size: 20px;
-            padding-left: 20%;
-            padding-right: 20%;
-            list-style-type: none;
             font-family: 'Magra', sans-serif;
-            color: $color-card;
+        }
+        .FontSize {
+           @include font-size;
+           padding-left: 20%;
+           padding-right: 20%;
+           list-style-type: none;
+           color: $color-card;
         }
     }
         /*Contacto*/
@@ -114,8 +114,7 @@ body{
         background-color: $color-navegador;
     }
     .FontSizeContacto{
-        font-size: 20px;
-        font-family: 'Magra', sans-serif;
+        @include font-size;
     }
 @media (max-width: 992px) {
     header{
